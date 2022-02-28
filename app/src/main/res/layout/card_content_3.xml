@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/calistoga"
+        android:text="The Silver Swan by Amo Jones"
+        android:textColor="#D0F3E7E7"
+        android:textSize="26sp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="500dp"
+        android:src="@drawable/amo_jones___silver_swan"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/asul"
+        android:gravity="center|fill_horizontal"
+        android:lineHeight="18dp"
+        android:paddingStart="25dp"
+        android:paddingRight="15dp"
+        android:text="@string/silver_snippet"
+        android:textColor="#9FFFFFFF"
+        android:textSize="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Buy Now"
+        android:textColor="#CD0E4E"
+        android:paddingLeft="28dp"
+        android:layout_marginTop="18dp"
+        android:textSize="29sp"
+        android:fontFamily="@font/calistoga"/>
+
+</LinearLayout>
